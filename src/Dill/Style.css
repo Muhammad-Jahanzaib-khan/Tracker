@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(203, 228, 228);
+}
+
+.mdl-overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mdl-container{
+    width: 400px;
+    background-color: white;
+    border-radius: 8px;
+}
+.mdl-header{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.close-btn{
+    border: none;
+    font-size: 1.5em;
+    background-color: transparent;
+}
+
+.mdl-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
